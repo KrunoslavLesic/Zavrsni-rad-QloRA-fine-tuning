@@ -53,11 +53,12 @@ U repozitoriju se nalazi konačna tablica evaluacije koja sadrži odgovore bazno
 git clone https://github.com/KrunoslavLesic/Zavrsni-rad-QLoRA-fine-tuning.git
 ```
 
-2. Otvoriti bilježnicu `notebooks/qlora_finetuning.ipynb` u Google Colabu ili Jupyter Notebooku.
+2. Otvoriti bilježnicu `notebooks/qlora_finetuning.ipynb` u Google Colabu ili Jupyter Notebooku. Ako se kod pokreće na Google Colabu, potrebno je prilagoditi putanje datotekama
 
-3. Pokrenuti ćelije redom od početka do kraja. Sve potrebne biblioteke instaliraju se automatski na početku bilježnice.
+3. Pokrenuti ćelije redom od početka do kraja.
 
-4. Prije pokretanja potrebno je prilagoditi putanje do skupa podataka i direktorije za spremanje modela prema vlastitom okruženju.
+**Napomena:** Projekt zahtijeva GPU. Pokretanje na CPU-u može uzrokovati pogreške tijekom učitavanja i dotreniranja modela.
+
 
 ## Autor
 

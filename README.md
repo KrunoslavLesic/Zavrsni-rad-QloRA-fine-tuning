@@ -91,12 +91,14 @@ U izravnoj usporedbi odgovora, dotrenirani model ocijenjen je kao bolji u **175 
 
 2. Kreirati virtualno okruženje:
 
-    python -m venv .venv
+   ```bash
+   python -m venv .venv
 
 3. Instalirati `ipykernel` i registrirati virtualno okruženje kao Jupyter kernel:
 
-    .venv\Scripts\python.exe -m pip install ipykernel
-    .venv\Scripts\python.exe -m ipykernel install --user --name zavrsni-rad --display-name "Python (zavrsni-rad)"
+   ```bash
+   .venv/Scripts/python.exe -m pip install ipykernel
+   .venv/Scripts/python.exe -m ipykernel install --user --name zavrsni-rad --display-name "Python (zavrsni-rad)"
 
 
 4. Aktivirati virtualno okruženje.

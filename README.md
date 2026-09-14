@@ -13,7 +13,7 @@ Nakon dotreniravanja uspoređeni su odgovori baznog i dotreniranog modela. Evalu
 ```text
 dataset/      Instrukcijski skup podataka korišten za dotreniranje
 notebooks/    Jupyter bilježnice s postupkom dotreniranja i evaluacije
-results/      Rezultati odgovora modela
+results/      Odgovori modela zajedno s njihovim ocjenama
 README.md
 ```
 

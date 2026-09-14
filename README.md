@@ -85,8 +85,9 @@ U izravnoj usporedbi odgovora, dotrenirani model ocijenjen je kao bolji u **175 
 
 1. Klonirati repozitorij:
 
-    git clone https://github.com/KrunoslavLesic/Zavrsni-rad-QLoRA-fine-tuning.git
-    cd Zavrsni-rad-QLoRA-fine-tuning
+   ```bash
+   git clone https://github.com/KrunoslavLesic/Zavrsni-rad-QLoRA-fine-tuning.git
+   cd Zavrsni-rad-QLoRA-fine-tuning
 
 2. Kreirati virtualno okruženje:
 
